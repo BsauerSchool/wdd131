@@ -1,0 +1,65 @@
+body {
+    border-style: solid; 
+    border-color: black;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+header {
+    background-color: rgb(102, 101, 101);
+
+    grid-column: 1 / 5;
+}
+
+nav {
+    background-color: black;
+    height: 30px;
+    padding: 30px;
+    display: grid;
+
+    
+    
+}
+
+li {
+    list-style-type: none;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    
+}
+
+.one {
+    grid-column: 1/2;
+}
+
+.two {
+    grid-column: 2 / 3;
+}
+
+.three {
+    grid-column: 3 / 4;
+}
+
+.four {
+    grid-column: 4 / 5;
+}
+main {
+    max-width: auto;
+    height: 500px;
+    background-color: rgb(184, 182, 182);
+
+    grid-column: 1 / 4;
+}
+
+aside {
+    grid-column: 4 / 5;
+}
+
+footer { 
+    background-color: rgb(102, 101, 101);
+    height: 130px;
+    
+    grid-column: 1 / 5;
+}
