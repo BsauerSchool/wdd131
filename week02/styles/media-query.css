@@ -1,0 +1,31 @@
+/* 1. Media-query.css
+        Do NOT inlude a media query
+        Use the google foont - roboto in the body rule
+        The header, main, and footer
+            1. Each have a mximum width of 640px
+            2. are centered on the page using margin: 1rem auto
+            3. include a faint border
+            4. use appropriate padding
+            5. have a blueish background color of your choice. 
+    2. Declare the main element as a CSS Grid with one column and an equal gab of 1rem
+    3. Decalre the section elements to also have padding and a lighter or white background.
+            */
+
+header, main, footer {
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: lightblue;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr; /*setting the grid with one column; */
+    grid-gap: 1rem; /* Setting the gap between items with an equal gap of 1rem. */
+}
+
+section {
+    padding: 1rem;
+    background-color: white;
+}
