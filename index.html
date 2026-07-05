@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta description="WDD 131 - Dynamic Web Fundamentals - Brendin Sauer - Home page for course content">
+    <meta author="Brendin Sauer">
+
+    <!-- Link to external CSS files -->
+     <link rel="stylesheet" href="styles/base.css">
+
+    <!--Link to external JavaScript file-->
+    <script src="scripts/getdates.js" defer></script>
+
+    <!--Google Fonts-->
+    <!--Font 1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&display=swap" rel="stylesheet">
+
+    <!--Font 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>WDD 131 - Dynamic Web Fundamentals - Brendin Sauer</title>
 </head>
 <body>
-    
+    <header>
+        <span id="course-title">131 - Dynamic Web Fundamentals</span>
+        <nav>
+            <li><a href="linkedin.com">LinkedIn</a></li>
+            <li><a href=" https://byupw.instructure.com/.">Canvas</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a></li>
+            <li><a href="#">Final Project</a></li>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Brendin Sauer</h1>
+        <section class="card" id="card-one">
+            <h2>section 1</h2>
+            <img src="images/brendin-photo.jpeg">
+            <p>My name is Brendin Sauer. I was born in Las Vegas, Navada. I now live in Layton Utah with my wifre. We have been married for 5 years, an dlook forward to many more.</p>
+        </section>
+        <section class="card" id="card-two">
+            <h2>section 2</h2>
+            <p>In Utah, we are currently experiencing a drought. This happens when there wasn't enough snow in the mountians during the winter. The summer heat hasn't been bad yet, but because of the drought there has already been several fires.</p>
+            <img src="images/salt-lake-temple.jpg">
+        </section>
+    </main>
+
+    <footer>
+        <h2>footer Content</h2>
+        <p id="copyright">&copy <span id="current-year"></span> Brendin S - Utah</p>
+        <p id="lastModified"></p>
+    </footer>
+
 </body>
 </html>
