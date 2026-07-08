@@ -28,7 +28,6 @@ body {
 
 /*header*/
 header {
-    border: red dotted 1px;
     background: #d9dad7;
 }
 
@@ -58,8 +57,8 @@ ul {
 a {
     font-size: 20px;
     text-decoration: none;
-    color: #1a2639;
-    background: #c24d2c;
+    color: #1a2639; 
+    background: #d9dad7;
     padding: 5px;
     margin: 5px;
     border-radius: 8%;
