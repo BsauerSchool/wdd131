@@ -49,12 +49,12 @@ nav {
 }
   
 
-ul {
+#nav-list {
     display: flex;
     justify-content: space-around;
 }
 
-a {
+.nav-a {
     font-size: 20px;
     text-decoration: none;
     color: #1a2639; 
@@ -68,11 +68,16 @@ a:hover {
     color: yellow;
 }
 
-li {
+.nav-li {
     list-style: none;
 }
 
 /*main*/
+div {
+    width: 70dvw;
+    height: fit-content;
+}
+
 main {
     color: white;
     max-width: 90%;
@@ -81,17 +86,20 @@ main {
     padding-top: 5px;
     margin-left: 10%;
     margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 h1 {
     text-align: center;
     margin-bottom: 10px;
     margin-right: 80px;
     color: black;
+    grid-column: 1/3;
 }
 
 section {
-    max-width: 90%;
-    min-height: 30dvh;
+    max-width: 100%;
+    min-height: auto;
     margin-bottom: 0px;
     background: #3e4a61;
     
@@ -137,9 +145,49 @@ section img {
     border-top-right-radius: 10px;
 }
 
+/*------aside----------*/
+aside {
+    
+    border: black solid 1px;
+    border-radius: 10px 10px 10px 10px;
+    width: 17dvw;
+}
+aside ul {
+    align-content: center;
+    padding: 5px 0 0 25px;
+    color: blue;
+}
+
+aside div {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+aside ul li {
+    padding-top: 10px;
+    
+}
+
+aside h2 {
+    border: solid 1px black;
+    background: #3e4a61;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+
 /*footer*/
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #d9dad7;
     text-align: center;
-    min-height: 11dvh;
+    min-height: 15dvh;
+    
 }
