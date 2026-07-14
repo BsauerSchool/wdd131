@@ -1,0 +1,52 @@
+@media only screen and (min-width: 38rem) {
+
+    body {
+        display: block;
+    }
+
+    header {
+        width: 100dvw;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    header span {
+        width: 140px;
+        border: red dashed 1px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+
+    .navigation ul li {
+        margin: 0px 20px 0px 3px;
+        border: none;
+    }
+
+    .navigation ul li a {
+        text-decoration: none;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        width: 80dvw;
+    }
+
+    
+
+    h1 {
+        grid-column: 1/4;
+    }
+}

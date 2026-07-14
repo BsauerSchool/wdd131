@@ -2,12 +2,81 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
+/* ----------header--------------*/
+header {
+    width: 100dvw;
+    height: 44px;
+    display: grid;
+    grid-template-columns: auto 44px;
+    align-items: end;
+    border-bottom: #ddd solid 1px;
+
+}
+
+header span{
+    text-align: left;
+    color: black;
+    font-size: 1.4rem;
+    padding: 0 0 8px 10px;
+}
+
+/* ----------navigation--------------*/
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 11px;
+}
+
+.navigation li {
+    border-bottom: #ddd solid 1px;
+    margin: 3px 0 0 0;
+    padding: 0;
+}
+
+.navigation li a {
+    text-decoration: none;
+}
+
+/* ----------hamburger--------------*/
+.hamburger {
+    background: none;
+    width: 44px;
+    height: 44px;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+    font-size: 2rem;
+
+}
 /* ----------Main--------------*/
 main {
-    width: 40%;
-    margin: 10px 10% 10px 10%;
+    width: 50%;
+    min-width: 320px;
+    margin: 119px 10% 10px 10%;
     display: grid;
     grid-template-columns: auto;
     border: red dashed 1px;
@@ -20,6 +89,10 @@ figure {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+figure img {
+    width: 100%;
+    height: auto;
 }
 
 /*----------Footer----------*/

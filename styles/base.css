@@ -92,7 +92,7 @@ main {
     /* margin-left: 10%; */
     margin-bottom: 10px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns:  auto;
     grid-gap: 10px;
 }
 h1 {
