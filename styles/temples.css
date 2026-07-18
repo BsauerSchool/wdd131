@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -74,21 +75,21 @@ header span{
 }
 /* ----------Main--------------*/
 main {
-    width: 50%;
     min-width: 320px;
-    margin: 119px 10% 10px 10%;
     display: grid;
     grid-template-columns: auto;
-    border: red dashed 1px;
+    background-color: #eee;
 }
 
 figure {
-    border: red dashed 1px;
     width: fit-content;
+    width: 280px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 2px 0 2px 2px;
 }
 figure img {
     width: 100%;
@@ -100,5 +101,5 @@ footer {
     width: 80%;
     margin: 10px 10% 10px 10%;
     text-align: center;
-    border: red dashed 1px;
+    border-top: #ddd solid 1px;
 }

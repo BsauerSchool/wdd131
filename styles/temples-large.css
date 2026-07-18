@@ -1,18 +1,28 @@
 @media only screen and (min-width: 38rem) {
 
     body {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header , footer{
+        max-width: 900px;
+        width: 100dvw;
+        display: flex;
+        
+         
+    }
+
+    footer {
+        flex-direction: column;
     }
 
     header {
-        width: 100dvw;
-        display: flex;
         justify-content: space-between;
-        
     }
     header span {
         width: 140px;
-        border: red dashed 1px;
     }
 
     .hamburger {
@@ -38,15 +48,24 @@
         text-decoration: none;
     }
 
+    figure {
+        margin-left: 5px;
+        padding: 0;
+        margin: 2px 0 2px 2px;
+        padding: 2px 0 2px 2px;
+    }
+
     main {
-        display: grid;
-        grid-template-columns: 30% 30% 30%;
-        width: 80dvw;
+        max-width: 900px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     
-
     h1 {
-        grid-column: 1/4;
+        width: 100%;
     }
 }
