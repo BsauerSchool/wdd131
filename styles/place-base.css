@@ -12,14 +12,16 @@ body {
 }
 
 header {
-    border-bottom: green solid 20px;
+    border-bottom: #A5ACAF  solid 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     min-width: 233px;
-    background-color: red;
-    color: white;
+    background-color: #002244 ;
+    color: #A5ACAF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 h1 {
@@ -29,6 +31,8 @@ h1 {
 
 main {
     border: black solid 1px;
+    border-top: none;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +43,7 @@ main {
 }
 
 #data {
-    border-bottom: #ddd solid 3px;
+    border-bottom: #A5ACAF  solid 3px;
 }
 #weather, #data {
     display: flex;
@@ -57,8 +61,8 @@ main img {
     width: 100%;
     height: auto;
     min-width: 230px;
-    border-left: solid black 1px;
-    border-right: solid black 1px;
+    border: solid black 1px;
+    border-radius: 10px;
     
 }
 
@@ -80,8 +84,11 @@ footer {
     flex-direction: column;
     width: 50%;
     min-height: 100%;
-    background-color: red;
-    color: white;
+    background-color: #002244;
+    color: #A5ACAF;
     text-align: center;
     min-width: 231px;
+    padding-top: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }

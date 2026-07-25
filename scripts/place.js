@@ -13,6 +13,7 @@ let windChill = 'na';
 const temperature = document.querySelector('#temp');
 const wind = document.querySelector('#wind');
 const chill = document.querySelector('#chill');
+const conditions = document.querySelector('#conditions');
 
 // T = Temperature (in F)
 // V = Wind Speed (MPH)
@@ -30,6 +31,8 @@ if(temp > 48 && windSpeed > 3){
 temperature.innerHTML = `Temperature: ${temp}`;
 wind.innerHTML = `Wind Speed: ${windSpeed}`;
 chill.innerHTML = `Wind Chill: ${windChill}`;
+conditions.innerHTML = 'Conditions: Partly Cloudy';
+
 
 
 
