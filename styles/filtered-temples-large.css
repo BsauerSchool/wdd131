@@ -1,0 +1,75 @@
+@media only screen and (min-width: 38rem) {
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header , footer{
+        max-width: 900px;
+        width: 100dvw;
+        display: flex;
+        
+         
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+    header span {
+        width: 140px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+
+    .navigation ul li {
+        margin: 0px 20px 0px 3px;
+        border: none;
+    }
+
+    .navigation ul li a {
+        text-decoration: none;
+    }
+
+    #temple-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #temple-cards section{
+        margin: 5px;
+    }
+
+    main {
+        max-width: 900px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    
+    h1 {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+}
