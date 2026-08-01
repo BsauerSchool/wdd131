@@ -29,6 +29,9 @@ header span{
 }
 
 /* ----------navigation--------------*/
+nav {
+    display: flex;
+}
 .navigation {
     display: none;
 }
