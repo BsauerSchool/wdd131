@@ -1,11 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="This is the W01 Assignment: Home Page for the class WDD 131 - Dynamic Web Fundamentals - Brendin Sauer">
+    <meta name="author" content="Brendin Sauer">
+<!--Google Fonts-->
+<!--Font 1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&display=swap" rel="stylesheet">
+<!--Font 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+<!-- Link to external files -->
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+    <title>WDD 131 - Dynamic Web Fundamentals - Brendin Sauer</title>
 </head>
 <body>
-    
+<!-- Header -->
+     <header>
+<!-- title -->
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+<!-- Nav Element -->
+        <nav>
+            <ul id="nav-list">
+                <li class="nav-li"><a class="nav-a" href="https://www.linkedin.com/">LinkedIn</a></li>
+                <li class="nav-li"><a class="nav-a" href=" https://byupw.instructure.com/.">Canvas</a></li>
+                <li class="nav-li"><a class="nav-a" href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng">Scripture</a></li>
+                <li class="nav-li"><a class="nav-a" href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Main -->
+    <main>
+<!-- h1 tag -->
+        <h1>Brendin Sauer</h1>
+<!-- Section 1 -->
+        <div>
+            <section class="card" id="card-one">
+                <h2 id="about-me">About Me</h2>
+                <p>My name is Brendin Sauer. I was born in Las Vegas, Navada. I now live in Layton Utah with my wife. We have been married for 5 years, an dlook forward to many more.</p>
+                <img src="images/brendin-photo.jpeg" alt="photo of me hunting">
+            </section>
+<!-- Section 2 -->
+            <section class="card" id="card-two">
+                <h2 id="utah-heading">Utah</h2>
+                <img src="images/salt-lake-temple.jpg" alt="image of the salt lake temple">
+                <p>In Utah, we are in the middle of a drought brough on because we haven't had much snow during the last winter. Luckily, we have seen some rain storms over the last few weeks that really keep us from feeling the effects of the drought. Unfortunately, we are seeing MANY wildfires this year because of how dry everything is.</p>
+            </section>
+        </div>
+<!-- Web Dev Resources -->
+        <aside>
+            <h2 id="web-dev">Web Dev Resources</h2>
+            <div id="list">
+                <ul>
+                    <li><a href="dev.to">Dev.to Community</a></li>
+                    <li><a href="#">Smasing Magazine</a></li>
+                    <li><a href="#">CSS Tricks</a></li>
+                    <li><a href="#">W3 Schools</a></li>
+                    <li><a href="#">Udemy</a></li>
+                    <li><a href="#">Lorem Picsum Image Placeholder</a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+<!-- Footer -->
+    <footer>
+<!-- First Paragraph -->
+        <p id="copyright"><span id="current-year">c</span>&#11088; Brendin Sauer &#11088; Layton Utah</p>
+        <p id="lastModified">last</p>
+    </footer>
 </body>
 </html>
