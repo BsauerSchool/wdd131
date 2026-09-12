@@ -19,7 +19,7 @@
 #course-title {
     display: block;
     background: #3e4a61;
-    color: #c24d2c;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +87,7 @@ li {
 
 #web-dev {
     background: #3e4a61;
-    color: #c24d2c;
+    color: white;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px; 
 }
@@ -120,7 +120,7 @@ h2 {
 #about-me {
     border: 1px solid black;
     background: #3e4a61;
-    color: #c24d2c;
+    color: white;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
 }
@@ -146,7 +146,7 @@ footer {
     align-items: center;
     flex-direction: column;
     background: #3e4a61;
-    color: #c24d2c;
+    color: white;
 }
 
 #copyright, #lastModified {
