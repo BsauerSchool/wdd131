@@ -16,6 +16,9 @@
 }
 
 /* header */
+header {
+    width: 100%;
+}
 #course-title {
     display: block;
     background: #3e4a61;
