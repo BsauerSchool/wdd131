@@ -32,7 +32,10 @@ header span{
 }
 
 /* ----------navigation--------------*/
-
+nav {
+    display: flex;
+    width: 70%;
+}
 .navigation ul {
     display:flex;
     flex-direction: column;
@@ -47,6 +50,7 @@ header span{
     border-bottom: #ddd solid 1px;
     margin: 3px 0 0 0;
     padding: 0;
+    width: 440px;
 }
 
 .navigation li a {
@@ -54,6 +58,7 @@ header span{
     color: black;
     display: block;
     text-align: center;
+    
 }
 
 nav a:hover {
