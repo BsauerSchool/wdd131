@@ -1,0 +1,110 @@
+
+body {
+    margin: 20px 0 0 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Urbanist", sans-serif;
+}
+
+/* ----------header--------------*/
+header {
+    width: 100dvw;
+    height: 44px;
+    display: grid;
+    grid-template-columns: auto 44px;
+    align-items: end;
+    border-bottom: #ddd solid 1px;
+
+}
+
+header span{
+    text-align: left;
+    color: black;
+    font-size: 1.4rem;
+    padding: 0 0 8px 10px;
+}
+
+/* ----------navigation--------------*/
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 11px;
+}
+
+.navigation li {
+    border-bottom: #ddd solid 1px;
+    margin: 3px 0 0 0;
+    padding: 0;
+}
+
+.navigation li a {
+    text-decoration: none;
+}
+
+/* ----------hamburger--------------*/
+.hamburger {
+    background: none;
+    width: 44px;
+    height: 44px;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+    font-size: 2rem;
+
+}
+/* ----------Main--------------*/
+main {
+    min-width: 320px;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #eee;
+}
+
+figure {
+    width: fit-content;
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2px 0 2px 2px;
+}
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-family: "Lobster Two", sans-serif;
+}
+
+/*----------Footer----------*/
+footer {
+    width: 80%;
+    margin: 10px 10% 10px 10%;
+    text-align: center;
+    border-top: #ddd solid 1px;
+}
