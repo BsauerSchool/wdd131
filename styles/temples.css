@@ -18,6 +18,8 @@ header {
     grid-template-columns: auto 44px;
     align-items: end;
     border-bottom: #ddd solid 1px;
+    background-color: #e6c365;
+    margin-bottom: 10px;
 
 }
 
@@ -52,6 +54,11 @@ header span{
 
 .navigation li a {
     text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: yellow;
 }
 
 /* ----------hamburger--------------*/
@@ -107,4 +114,5 @@ footer {
     margin: 10px 10% 10px 10%;
     text-align: center;
     border-top: #ddd solid 1px;
+    background-color: #e6c365;
 }
