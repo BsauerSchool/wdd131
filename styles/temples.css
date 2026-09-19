@@ -14,9 +14,10 @@ body {
 header {
     width: 100dvw;
     height: 44px;
-    display: grid;
-    grid-template-columns: auto 44px;
-    align-items: end;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     border-bottom: #ddd solid 1px;
     background-color: #e6c365;
     margin-bottom: 10px;
@@ -28,6 +29,7 @@ header span{
     color: black;
     font-size: 1.4rem;
     padding: 0 0 8px 10px;
+    width: 90%;
 }
 
 /* ----------navigation--------------*/
