@@ -3,14 +3,21 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 header {
     color: white;
     background-color: darkolivegreen;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     max-width: 400px;
-    margin-left: 15%;
 }
 
 main {
@@ -27,8 +34,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     max-width: 400px;
-    margin-left: 15%;
     padding: 2px 2px 2px 2px;
 }
 
