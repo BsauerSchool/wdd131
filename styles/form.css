@@ -129,7 +129,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding-top: 0;
-    border: dashed red 1px;
+    
 }
 
 .checkSection input[type="checkbox"] {
